@@ -32,4 +32,4 @@ jobs:
     - name: Test with pytest
       run: |
         pip install matplotlib numpy pandas scikit-learn
-        pytest || true
+        python rex.py
